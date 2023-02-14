@@ -13,6 +13,22 @@ body {
     width: 300px;
     cursor: pointer;
   }
+.class{
+    position: absolute;
+    content:"Hover Me";
+    color: #b0072f;
+    font-family: "Brush Script MT", cursive;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 35px;
+    transform: translate(-50%,-50%);
+    left:30%;
+    top:20%;
+    text-align: center;
+    border: 2px double;
+  }
   
   .chocolate-box:before, .chocolate-box:after {
     content:"";
